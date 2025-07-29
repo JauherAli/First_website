@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{width: 100%;
+   height: 100%;
+    
+}
+#header{
+    display: flex;
+    align-items: center;
+    
+    height: 13%;
+    width: 100%;
+    background-color: rgba(242, 241, 241, 0.93);
+    position: fixed;
+    }
+.text{color: rgb(2, 98, 216);
+    margin: 16px;
+    padding: 14px;
+    font-weight: 540;}
+    .text:hover{color: rgba(31, 188, 205, 0.785);
+  }
+#fakeheader{
+    height: 13%;
+    width: 100%;
+    background-color: rgb(180, 24, 24);
+
+}
+
+#contactdetails{
+   margin-left: 65px;
+   font-weight:100;
+   
+   color: rgb(77, 150, 213);
+
+}
+#logo{
+    height: 70%;
+    margin: 30px;
+    margin-left: 50px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.icon{
+    object-fit: cover;
+    margin-left: 40px;
+        padding: 10px;
+}
+.icon:hover{
+   border-radius: 50%;
+    background-color: rgb(170, 12, 133);
+    padding: 10px;
+}
+#box
+{background-color: rgb(117, 186, 15);
+    padding: 15px;
+    margin: 40px;
+    border-radius: 6px;
+}
+#box:hover{background-color: rgb(16, 110, 60);
+}
+#login{
+    margin: 19px;
+    margin-left:40px ;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+ 
+}
+#login:hover{ 
+background-color: rgba(129, 180, 241, 0.686);
+}
+#page1{
+height: 87%;
+width: 100%;
+background-color: rgb(251, 251, 250) }
+
+#strip{
+    width: 100%;
+    height: 9%;
+    background-color: rgb(6, 6, 81);
+    color: rgb(253, 253, 253);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#stripu{ margin-left: 20px;
+    font-weight:lighter;
+}
+#content{
+    
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15px;
+    }
+    #box1{height: 100%;
+        width: 47%;
+        margin : 20px;
+        
+        margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+    #box1 p{text-align: center;
+        justify-content: center;
+       
+        align-items: center;
+          margin-top: 10px;
+   
+    } 
+    #headline{
+        margin-top: 20%;
+    color: rgb(5, 5, 94);
+    margin-left: 15px;
+    font-weight: 600;}
+     #button1{
+        padding: 10px 20px;
+        color: rgb(240, 242, 242);
+        background-color: rgb(94, 99, 228);
+    align-items: center;
+     border-radius: 4px;
+     margin-top: 10%;
+    display: flex;}
+       #button1:hover{
+        background-color: rgb(2, 2, 95);
+       }
+    #button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #button2{
+        padding: 10px 20px;
+        color: rgb(88, 161, 240);
+        background-color: rgb(245, 241, 241);
+          border: 2px solid black;
+               border-radius: 4px;
+                 margin-top: 10%;
+              margin-left: 15px;
+    }
+       #button2:hover{
+        background-color: rgb(116, 116, 236);
+        color: rgb(37, 37, 89);
+        border-color: rgb(79, 79, 229);
+       }
+    #box2{
+        height: 100%;
+        width: 47%;
+        margin : 20px;  
+        background-color: rgb(254, 255, 255);}
+   #box2 img{ width: 100%;
+    object-fit: cover;
+       width: 100%;
+    height: 100%;
+
+   }     
+      
+ 
+#footer{width: 100%;
+    height: 16%;
+background-color: rgb(246, 249, 248);
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 500;
+color: rgb(1, 1, 91);
+font-style: normal;
+
+    }
+   
+    
+#page2{
+    height: 87%;
+width: 100%;
+background-color: rgb(246, 247, 246); 
+}
+#page2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+    
+.card{
+  
+    display: flex;
+    height: 330px;
+    width :230px;
+    border-radius: 4px;
+   
+  
+}
+
+#card1{
+
+     
+    background-color: antiquewhite;
+  
+}
+#card2{
+
+    background-color: aqua;
+    
+}
+    #card3{
+     
+
+    background-color: rgb(67, 99, 2);
+}
+#card4{
+    background-color: black;
+}
+
